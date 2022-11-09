@@ -12,15 +12,14 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
           token: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
 
           # Options
-          user: FloEdelmann
+          user: Youxingz
           template: classic
           base: header, activity, community, metadata
           config_padding: 0, 14%
-          config_timezone: Europe/Berlin
+          config_timezone: Asia/Shanghai
           plugin_followup: yes
           plugin_followup_sections: user, repositories
           plugin_notable: yes
