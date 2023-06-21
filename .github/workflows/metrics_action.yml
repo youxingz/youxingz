@@ -20,17 +20,17 @@ jobs:
           base: header, activity, community, metadata
           config_padding: 0, 14%
           config_timezone: Asia/Shanghai
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           plugin_followup: yes
           plugin_followup_sections: user, repositories
-          plugin_notable: yes
+          plugin_notable: no
           plugin_notable_repositories: yes
           plugin_notable_filter: cats stars:10..*
           plugin_topics: yes
           plugin_topics_limit: 15
           plugin_topics_mode: starred
           plugin_topics_sort: stars
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          plugin_starlists: yes
+          plugin_starlists: no
           plugin_starlists_languages: yes
           repositories_affiliations: owner, collaborator
