@@ -60,7 +60,7 @@ async function updateGist(stats) {
       }
     });
     console.log("Update Gist Successfully!")
-    console.log(lines.join("\n")
+    console.error(lines.join("\n") // debug it.
   } catch (error) {
     console.error(`Unable to update gist\n${error}`);
   }
