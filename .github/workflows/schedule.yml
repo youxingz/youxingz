@@ -11,12 +11,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: Update gist
-        uses: matchai/waka-box@master
+
+        # - name: Update gist
+        # uses: matchai/waka-box@master
+        # env:
+        #   GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        #   GIST_ID: 85f21558e2fe833d141caaf289861bfa
+        #   WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+
+      - name: Build readme.md
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 85f21558e2fe833d141caaf289861bfa
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+        run: |-
+          node src/index.js
 
       - name: Commit and push if changed
         run: |-
