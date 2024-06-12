@@ -2,19 +2,10 @@ require("dotenv").config();
 const { WakaTimeClient, RANGE } = require("wakatime-client");
 const { Octokit } = require("@octokit/rest");
 
-const {
-  GIST_ID: gistId,
-  GH_TOKEN: githubToken,
-  WAKATIME_API_KEY: wakatimeApiKey
-} = process.env;
-
-const wakatime = new WakaTimeClient(wakatimeApiKey);
-
-const octokit = new Octokit({ auth: `token ${githubToken}` });
-
-async function main() {
+async function render_wakatime(gistId, githubToken, wakatimeApiKey) {
+  const wakatime = new WakaTimeClient(wakatimeApiKey);
   const stats = await wakatime.getMyStats({ range: RANGE.LAST_7_DAYS });
-  await updateGist(stats);
+  return await updateGist(stats, gistId, githubToken);
 }
 
 function trimRightStr(str, len) {
@@ -22,7 +13,8 @@ function trimRightStr(str, len) {
   return str.length > len ? str.substring(0, len - 3) + "..." : str;
 }
 
-async function updateGist(stats) {
+async function updateGist(stats, gistId, githubToken) {
+  const octokit = new Octokit({ auth: `token ${githubToken}` });
   let gist;
   try {
     gist = await octokit.gists.get({ gist_id: gistId });
@@ -50,20 +42,21 @@ async function updateGist(stats) {
   try {
     // Get original filename to update that same file
     const filename = Object.keys(gist.data.files)[0];
+    const outputs = lines.join("\n");
     await octokit.gists.update({
       gist_id: gistId,
       files: {
         [filename]: {
           filename: `📊 Weekly development breakdown`,
-          content: lines.join("\n")
+          content: outputs
         }
       }
     });
-    console.log("Update Gist Successfully!")
-    console.error(lines.join("\n") // debug it.
+    return outputs;
   } catch (error) {
     console.error(`Unable to update gist\n${error}`);
   }
+  return "";
 }
 
 function generateBarChart(percent, size) {
@@ -81,6 +74,4 @@ function generateBarChart(percent, size) {
     .padEnd(size, syms.substring(0, 1));
 }
 
-(async () => {
-  await main();
-})();
+exports.render_wakatime = render_wakatime;

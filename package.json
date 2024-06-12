@@ -5,12 +5,13 @@
   "author": "Matan Kushner <hello@matchai.me>",
   "license": "ISC",
   "scripts": {
-    "build": "ncc build index.js --out dist --minify"
+    "build": "ncc build src/index.js --out dist --minify"
   },
   "dependencies": {
-    "@octokit/rest": "^19.0.5",
-    "axios": "^1.2.1",
-    "dotenv": "^16.0.3",
+    "@octokit/rest": "^20.1.1",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "ncc": "^0.3.6",
     "wakatime-client": "^2.7.0"
   },
   "devDependencies": {
