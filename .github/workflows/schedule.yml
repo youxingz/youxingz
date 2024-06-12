@@ -18,3 +18,11 @@ jobs:
           GIST_ID: 85f21558e2fe833d141caaf289861bfa
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
 
+      - name: Commit and push if changed
+        run: |-
+          git diff
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add -A
+          git commit -m "action: update readme automatically" || exit 0
+          git push
