@@ -15,6 +15,9 @@ const main = async () => {
   const outputs = `
 ### Hi there 👋
 
+[![youxingz-blog](https://img.shields.io/badge/blog-youxingz-3cf?style=flat-square)](https://www.youxingz.com)
+[![GitHub](https://img.shields.io/github/followers/youxingz?logo=github&style=flat-square)](https://github.com/youxingz)
+
 Here is my blog:
 [www.mathjoker.com](https://www.mathjoker.com)
 
