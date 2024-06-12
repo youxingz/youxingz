@@ -1,18 +1,14 @@
-name: Update gist with WakaTime stats
+name: Update Readme
 on:
-  push:
-  pull_request:
   schedule:
     - cron: "30 0,5,12,13,20 * * *"
   # Manual triggers with workflow_dispatch
   workflow_dispatch:
 jobs:
-  update-gist:
+  release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-
-        # - name: Update gist
         # uses: matchai/waka-box@master
         # env:
         #   GH_TOKEN: ${{ secrets.GH_TOKEN }}

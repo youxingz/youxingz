@@ -1,0 +1,36 @@
+# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+name: Update Metrics
+on:
+  schedule:
+    - cron: "0 0 * * *" # at 00:00 UTC every day
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GT_TOKEN_SUMMARY }}
+
+          # Options
+          user: Youxingz
+          template: classic
+          base: header, activity, community, metadata
+          config_padding: 0, 14%
+          config_timezone: Asia/Shanghai
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_followup: yes
+          plugin_followup_sections: user, repositories
+          plugin_notable: no
+          plugin_notable_repositories: yes
+          plugin_notable_filter: cats stars:10..*
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: starred
+          plugin_topics_sort: stars
+          plugin_starlists: no
+          plugin_starlists_languages: yes
+          repositories_affiliations: owner, collaborator
