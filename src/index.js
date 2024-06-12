@@ -45,7 +45,7 @@ ${wakatimes}
 
   console.log(outputs);
 
-  fs.writeFileSync("./README2.md", outputs); // error may be throw.
+  fs.writeFileSync("./README.md", outputs); // error may be throw.
 };
 
 (async () => {
