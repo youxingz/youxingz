@@ -10,11 +10,11 @@ Here is my blog:
 #### 📰 Recent Posts
 
 <!-- blog: https://youxingz.com starts -->
-* <a href="https://youxingz.com/hardware/nordic-nrf52-pwm" target="_blank">Nordic RF52 PWM</a> 【2023-10-31】 `📖1420 words` `🫣7.1 mins`
-* <a href="https://youxingz.com/software/elixir-meetup" target="_blank">Elixir Meetup 感想</a> 【2022-11-29】 `📖1620 words` `🫣8.1 mins`
-* <a href="https://youxingz.com/software/ssh-rsa-generate" target="_blank">Use SSH Public Key Authentication</a> 【2022-09-15】 `📖264 words` `🫣1.3 mins`
-* <a href="https://youxingz.com/software/ecto-timezone" target="_blank">记一次 Ecto 的时区问题</a> 【2022-08-20】 `📖1126 words` `🫣5.6 mins`
-* <a href="https://youxingz.com/math/gauss-integer" target="_blank">Gaussian Integer</a> 【2022-04-22】 `📖2 words` `🫣0 mins`
+* <a href="https://youxingz.com/tech/hardware/nordic-nrf52-pwm" target="_blank">Nordic RF52 PWM</a> 【2023-10-31】 `📖1420 words` `🫣7.1 mins`
+* <a href="https://youxingz.com/tech/software/elixir-meetup" target="_blank">Elixir Meetup 感想</a> 【2022-11-29】 `📖1620 words` `🫣8.1 mins`
+* <a href="https://youxingz.com/tech/software/ssh-rsa-generate" target="_blank">Use SSH Public Key Authentication</a> 【2022-09-15】 `📖264 words` `🫣1.3 mins`
+* <a href="https://youxingz.com/tech/software/ecto-timezone" target="_blank">记一次 Ecto 的时区问题</a> 【2022-08-20】 `📖1126 words` `🫣5.6 mins`
+* <a href="https://youxingz.com/science/math/gauss-integer" target="_blank">Gaussian Integer</a> 【2022-04-22】 `📖2 words` `🫣0 mins`
 <!-- blog: https://youxingz.com ends -->
 
 
