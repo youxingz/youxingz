@@ -21,7 +21,7 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-Kotlin     10 mins        █████████████████████ 100.0%
+undefined
 ```
 
 
