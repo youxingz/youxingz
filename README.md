@@ -21,11 +21,11 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-C          2 hrs 38 mins  █████████▏░░░░░░░░░░░  43.8%
-Python     2 hrs 29 mins  ████████▋░░░░░░░░░░░░  41.1%
-JSON       16 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.6%
-JavaScript 14 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.9%
-Kotlin     10 mins        ▌░░░░░░░░░░░░░░░░░░░░   2.9%
+C          2 hrs 49 mins  █████████▍░░░░░░░░░░░  45.2%
+Python     2 hrs 29 mins  ████████▎░░░░░░░░░░░░  39.7%
+JSON       16 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.4%
+JavaScript 14 mins        ▊░░░░░░░░░░░░░░░░░░░░   3.8%
+Kotlin     12 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.3%
 ```
 
 
