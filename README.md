@@ -21,10 +21,10 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-Other      10 hrs 52 mins ██████████▌░░░░░░░░░░  50.6%
-Markdown   5 hrs 14 mins  █████░░░░░░░░░░░░░░░░  24.4%
-Kotlin     5 hrs 10 mins  █████░░░░░░░░░░░░░░░░  24.1%
-C#         10 mins        ▏░░░░░░░░░░░░░░░░░░░░   0.8%
+Other      13 hrs 32 mins ██████████░░░░░░░░░░░  47.9%
+Kotlin     7 hrs 17 mins  █████▍░░░░░░░░░░░░░░░  25.8%
+Markdown   7 hrs 14 mins  █████▎░░░░░░░░░░░░░░░  25.6%
+C#         10 mins        ▏░░░░░░░░░░░░░░░░░░░░   0.6%
 TOML       1 min          ░░░░░░░░░░░░░░░░░░░░░   0.1%
 ```
 
