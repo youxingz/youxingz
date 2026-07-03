@@ -21,11 +21,11 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-C          13 hrs 12 mins █████████▊░░░░░░░░░░░  46.4%
-Kotlin     8 hrs 18 mins  ██████▏░░░░░░░░░░░░░░  29.2%
-Markdown   3 hrs 28 mins  ██▌░░░░░░░░░░░░░░░░░░  12.2%
-Bash       1 hr 19 mins   ▉░░░░░░░░░░░░░░░░░░░░   4.6%
-CMake      53 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.1%
+C          12 hrs 54 mins █████████▋░░░░░░░░░░░  46.0%
+Kotlin     8 hrs 18 mins  ██████▏░░░░░░░░░░░░░░  29.6%
+Markdown   3 hrs 23 mins  ██▌░░░░░░░░░░░░░░░░░░  12.1%
+Bash       1 hr 19 mins   ▉░░░░░░░░░░░░░░░░░░░░   4.7%
+CMake      53 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.2%
 ```
 
 
