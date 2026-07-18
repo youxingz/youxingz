@@ -21,10 +21,7 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-C#         40 mins        ███████████████████░░  90.6%
-Other      2 mins         █▏░░░░░░░░░░░░░░░░░░░   5.9%
-Markdown   1 min          ▋░░░░░░░░░░░░░░░░░░░░   3.5%
-XML        0 secs         ░░░░░░░░░░░░░░░░░░░░░   0.0%
+undefined
 ```
 
 
