@@ -21,8 +21,7 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-Image (... 30 mins        ███████████████████░░  90.5%
-XML        3 mins         █▉░░░░░░░░░░░░░░░░░░░   9.5%
+undefined
 ```
 
 
