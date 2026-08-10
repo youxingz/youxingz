@@ -21,7 +21,9 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-undefined
+Swift      24 mins        █████████████████▍░░░  83.3%
+Kotlin     2 mins         ██░░░░░░░░░░░░░░░░░░░   9.6%
+Markdown   2 mins         █▍░░░░░░░░░░░░░░░░░░░   7.1%
 ```
 
 
