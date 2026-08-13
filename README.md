@@ -21,9 +21,11 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-Swift      24 mins        █████████████████▍░░░  83.3%
-Kotlin     2 mins         ██░░░░░░░░░░░░░░░░░░░   9.6%
-Markdown   2 mins         █▍░░░░░░░░░░░░░░░░░░░   7.1%
+Kotlin     2 hrs 42 mins  ███████▏░░░░░░░░░░░░░  34.4%
+Markdown   2 hrs 40 mins  ███████▏░░░░░░░░░░░░░  34.1%
+Swift      56 mins        ██▌░░░░░░░░░░░░░░░░░░  12.0%
+XML        29 mins        █▎░░░░░░░░░░░░░░░░░░░   6.3%
+PlantUML   19 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.2%
 ```
 
 
