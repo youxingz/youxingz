@@ -21,8 +21,8 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-Kotlin     9 hrs 37 mins  █████████▊░░░░░░░░░░░  46.8%
-Markdown   7 hrs 8 mins   ███████▎░░░░░░░░░░░░░  34.7%
+Kotlin     9 hrs 37 mins  █████████▊░░░░░░░░░░░  46.7%
+Markdown   7 hrs 9 mins   ███████▎░░░░░░░░░░░░░  34.8%
 Swift      56 mins        ▉░░░░░░░░░░░░░░░░░░░░   4.6%
 JSON       41 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.4%
 TOML       40 mins        ▋░░░░░░░░░░░░░░░░░░░░   3.3%
