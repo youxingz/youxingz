@@ -21,11 +21,11 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-Kotlin     19 hrs 5 mins  ██████████▉░░░░░░░░░░  52.0%
-JSON       8 hrs 46 mins  █████░░░░░░░░░░░░░░░░  23.9%
-Markdown   5 hrs 58 mins  ███▍░░░░░░░░░░░░░░░░░  16.3%
-TSV        1 hr 35 mins   ▉░░░░░░░░░░░░░░░░░░░░   4.3%
-TOML       29 mins        ▎░░░░░░░░░░░░░░░░░░░░   1.4%
+Kotlin     16 hrs 31 mins ███████████▊░░░░░░░░░  56.2%
+JSON       8 hrs 41 mins  ██████▏░░░░░░░░░░░░░░  29.5%
+Markdown   2 hrs 17 mins  █▋░░░░░░░░░░░░░░░░░░░   7.8%
+TSV        1 hr 35 mins   █▏░░░░░░░░░░░░░░░░░░░   5.4%
+Other      13 mins        ▏░░░░░░░░░░░░░░░░░░░░   0.8%
 ```
 
 
