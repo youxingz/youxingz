@@ -21,11 +21,11 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-Rust       63 hrs 16 mins ██████████████░░░░░░░  66.8%
-Markdown   14 hrs 53 mins ███▎░░░░░░░░░░░░░░░░░  15.7%
-Python     10 hrs 12 mins ██▎░░░░░░░░░░░░░░░░░░  10.8%
-JSON       5 hrs 35 mins  █▏░░░░░░░░░░░░░░░░░░░   5.9%
-JavaScript 25 mins        ░░░░░░░░░░░░░░░░░░░░░   0.4%
+Rust       52 hrs 19 mins ███████████▋░░░░░░░░░  55.8%
+Markdown   17 hrs 36 mins ███▉░░░░░░░░░░░░░░░░░  18.8%
+Python     10 hrs 15 mins ██▎░░░░░░░░░░░░░░░░░░  10.9%
+JSON       5 hrs 42 mins  █▎░░░░░░░░░░░░░░░░░░░   6.1%
+JavaScript 3 hrs 22 mins  ▊░░░░░░░░░░░░░░░░░░░░   3.6%
 ```
 
 
