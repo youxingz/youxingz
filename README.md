@@ -21,11 +21,11 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-Python     8 hrs 50 mins  ███████▎░░░░░░░░░░░░░  35.1%
-Markdown   5 hrs 52 mins  ████▉░░░░░░░░░░░░░░░░  23.3%
-Other      3 hrs 43 mins  ███░░░░░░░░░░░░░░░░░░  14.8%
-Kotlin     3 hrs 9 mins   ██▋░░░░░░░░░░░░░░░░░░  12.6%
-Objecti... 1 hr 32 mins   █▎░░░░░░░░░░░░░░░░░░░   6.1%
+Python     8 hrs 56 mins  ███████▋░░░░░░░░░░░░░  36.5%
+Markdown   5 hrs 26 mins  ████▋░░░░░░░░░░░░░░░░  22.3%
+Kotlin     3 hrs 54 mins  ███▎░░░░░░░░░░░░░░░░░  16.0%
+Other      2 hrs 32 mins  ██▏░░░░░░░░░░░░░░░░░░  10.4%
+Objecti... 1 hr 32 mins   █▎░░░░░░░░░░░░░░░░░░░   6.3%
 ```
 
 
