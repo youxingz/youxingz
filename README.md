@@ -21,8 +21,7 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-Other      10 mins        ██████████████▎░░░░░░  68.0%
-Bash       4 mins         ██████▋░░░░░░░░░░░░░░  31.9%
+undefined
 ```
 
 
