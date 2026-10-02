@@ -21,7 +21,8 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-undefined
+Other      12 mins        ██████████████████▏░░  86.7%
+Markdown   1 min          ██▊░░░░░░░░░░░░░░░░░░  13.3%
 ```
 
 
