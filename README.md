@@ -21,8 +21,10 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-Other      12 mins        ██████████████████▏░░  86.7%
-Markdown   1 min          ██▊░░░░░░░░░░░░░░░░░░  13.3%
+Markdown   3 hrs 35 mins  █████████▏░░░░░░░░░░░  43.7%
+Python     2 hrs 35 mins  ██████▌░░░░░░░░░░░░░░  31.5%
+Other      1 hr 16 mins   ███▎░░░░░░░░░░░░░░░░░  15.5%
+Rust       46 mins        █▉░░░░░░░░░░░░░░░░░░░   9.4%
 ```
 
 
