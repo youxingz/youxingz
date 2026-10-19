@@ -21,7 +21,7 @@ Here is my blog:
 #### 👨‍💻 This Week I Code With
 
 ```text
-Other      0 secs         █████████████████████ 100.0%
+undefined
 ```
 
 
